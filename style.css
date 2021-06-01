@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", cursive;
+}
+
+/*navbar*/
+
+.navbar-brand{
+    color: gold!important;
+}
+
+
+.navbar-toggler,
+.navbar-toggler-icon,
+.navbar-toggler{
+    color: white!important;
+border: none!important;
+outline: none!important;
+box-shadow: none!important;
+}
+.navbar-toggler:focus,
+.navbar-toggler-icon:focus,
+.navbar-toggler:active{
+border: none!important;
+outline: none!important;
+box-shadow: none!important;
+}
+
+/*end of navbar*/
+
+/*home*/
+.banner-image{
+    background: linear-gradient(rgba(0, 0, 0, 0.89),rgba(0, 0, 0, 0.767)), url("images/working-girl.png") no-repeat center;
+    background-size: contain;
+    height: 600px!important;
+    
+}
+.content{
+    position: absolute;
+    transform: translate(-50%, 50%);
+    top: 15%;
+    left: 35%;
+    }
+/*end of home*/
+
+/*about*/
+
+.tech{
+    color: rgb(37, 37, 37);
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.about-header{
+    font-size: 18px;
+    color: rgb(27, 27, 27);
+}
+
+/*end of about*/
+
+/*project*/
+.project-item a{
+    text-decoration: none!important;
+    color: white;
+    border: none;
+}
+
+
+.proj-name{
+    text-transform: capitalize;
+    
+}
+/*end of project*/
+
+/*contact*/
+.icon{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/*end of contact*/
+
+
+footer,.built{
+    font-size: 5px!important;
+    text-align: center;
+}
